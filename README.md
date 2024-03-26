@@ -1,6 +1,8 @@
 # vk_ml_test
 
-## How to run
+Решение задачи ранжирования поисковой выдачи. Сравнение моделей производилось по метрике NDCG. Также решение с итоговой моеделью было завернуто в docker.
+
+## Запуск
 - Install and run Docker
 - Build Docker image using `docker build . -t ml_server`
 - Run Docker container using `docker run --rm -it -p 80:80 ml_server`
